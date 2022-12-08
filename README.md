@@ -2,6 +2,19 @@
 
 This is an official pnpm starter turborepo.
 
+## Install
+
+This project uses `asdf` to manage dependency versions. [Start by installing
+it](https://asdf-vm.com/guide/getting-started.html), then run:
+
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install
+corepack enable
+asdf reshim nodejs
+pnpm install
+```
+
 ## What's inside?
 
 This turborepo uses [pnpm](https://pnpm.io) as a package manager. It includes the following packages/apps:
